@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/furina/learning_coding/cpp_project/multithreading/study/build",
+  "command": "/usr/bin/g++ -I/home/furina/learning_coding/cpp_project/multithreading/study/include -g -std=gnu++17 -o lesson1/CMakeFiles/lesson1.dir/main.cpp.o -c /home/furina/learning_coding/cpp_project/multithreading/study/lesson1/main.cpp",
+  "file": "/home/furina/learning_coding/cpp_project/multithreading/study/lesson1/main.cpp",
+  "output": "/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson1/CMakeFiles/lesson1.dir/main.cpp.o"
+},
+{
+  "directory": "/home/furina/learning_coding/cpp_project/multithreading/study/build",
+  "command": "/usr/bin/g++ -I/home/furina/learning_coding/cpp_project/multithreading/study/include -g -std=gnu++17 -o lesson2/CMakeFiles/lesson2.dir/main.cpp.o -c /home/furina/learning_coding/cpp_project/multithreading/study/lesson2/main.cpp",
+  "file": "/home/furina/learning_coding/cpp_project/multithreading/study/lesson2/main.cpp",
+  "output": "/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2/CMakeFiles/lesson2.dir/main.cpp.o"
+},
+{
+  "directory": "/home/furina/learning_coding/cpp_project/multithreading/study/build",
+  "command": "/usr/bin/g++ -I/home/furina/learning_coding/cpp_project/multithreading/study/include -g -std=gnu++17 -o lesson2/CMakeFiles/lesson2_3.dir/main2_3.cpp.o -c /home/furina/learning_coding/cpp_project/multithreading/study/lesson2/main2_3.cpp",
+  "file": "/home/furina/learning_coding/cpp_project/multithreading/study/lesson2/main2_3.cpp",
+  "output": "/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2/CMakeFiles/lesson2_3.dir/main2_3.cpp.o"
+},
+{
+  "directory": "/home/furina/learning_coding/cpp_project/multithreading/study/build",
+  "command": "/usr/bin/g++ -I/home/furina/learning_coding/cpp_project/multithreading/study/include -g -std=gnu++17 -o lesson2/CMakeFiles/lesson2_4.dir/main2_4.cpp.o -c /home/furina/learning_coding/cpp_project/multithreading/study/lesson2/main2_4.cpp",
+  "file": "/home/furina/learning_coding/cpp_project/multithreading/study/lesson2/main2_4.cpp",
+  "output": "/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2/CMakeFiles/lesson2_4.dir/main2_4.cpp.o"
+}
+]

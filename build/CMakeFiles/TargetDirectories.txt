@@ -1,0 +1,10 @@
+/home/furina/learning_coding/cpp_project/multithreading/study/build/CMakeFiles/edit_cache.dir
+/home/furina/learning_coding/cpp_project/multithreading/study/build/CMakeFiles/rebuild_cache.dir
+/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson1/CMakeFiles/lesson1.dir
+/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson1/CMakeFiles/edit_cache.dir
+/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson1/CMakeFiles/rebuild_cache.dir
+/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2/CMakeFiles/lesson2.dir
+/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2/CMakeFiles/lesson2_3.dir
+/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2/CMakeFiles/lesson2_4.dir
+/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2/CMakeFiles/edit_cache.dir
+/home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2/CMakeFiles/rebuild_cache.dir

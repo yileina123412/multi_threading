@@ -1,0 +1,119 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lesson1",
+					"jsonFile" : "directory-lesson1-Debug-f2dca2ce9d580ecc0fa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lesson1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lesson2",
+					"jsonFile" : "directory-lesson2-Debug-aca724276750d718fad8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lesson2",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Mymutithread",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "lesson1::@f8996bc1f023edaddeda",
+					"jsonFile" : "target-lesson1-Debug-6d44a3866654c3b67585.json",
+					"name" : "lesson1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lesson2::@9ffd7a12d1d983e40643",
+					"jsonFile" : "target-lesson2-Debug-5fb79dbc704ab7223e86.json",
+					"name" : "lesson2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lesson2_3::@9ffd7a12d1d983e40643",
+					"jsonFile" : "target-lesson2_3-Debug-d6ea09fa897a132a665c.json",
+					"name" : "lesson2_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lesson2_4::@9ffd7a12d1d983e40643",
+					"jsonFile" : "target-lesson2_4-Debug-21bce5b04e3708b1ef86.json",
+					"name" : "lesson2_4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/furina/learning_coding/cpp_project/multithreading/study/build",
+		"source" : "/home/furina/learning_coding/cpp_project/multithreading/study"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
