@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/lesson4_4.dir/main4_4.cpp.o -o lesson4_4   -L/usr/local/lib 

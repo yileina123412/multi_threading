@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/main3_3.dir/main3_3.cpp.o -o main3_3   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib 

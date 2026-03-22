@@ -5,56 +5,50 @@
 #include <thread>
 #include <vector>
 
-// 1. 每个线程要执行的求和任务
 template <typename Iterator, typename T>
-struct accumulate_block {
-    void operator()(Iterator first, Iterator last, T& result) {
-        result = std::accumulate(first, last, result);  // 计算该块的累加和
-    }
-};
+void accumulate_block(Iterator begin, Iterator end, T& result) {
+    result = std::accumulate(begin, end, result);
+}
 
 template <typename Iterator, typename T>
-T parallel_accumulate(Iterator first, Iterator last, T init) {
-    unsigned long const length = std::distance(first, last);
+T parallel_accumulate(Iterator begin, Iterator end, T init) {
+    // 1.计算数据长度
+    unsigned long length = std::distance(begin, end);
+    // 2.设计线程数
+    unsigned long const min_thread_num = 25;
+    unsigned long const max_thread_num =
+        (length + min_thread_num - 1) / min_thread_num;
+    unsigned long const cup_core = std::thread::hardware_concurrency();
+    unsigned long const ture_num =
+        std::min(cup_core != 0 ? cup_core : 2ul, max_thread_num);
 
-    if (!length) return init;  // 范围为空则直接返回
-
-    // 2. 决定线程数量
-    unsigned long const min_per_thread = 25;  // 每个线程最少处理 25 个元素
-    unsigned long const max_threads =
-        (length + min_per_thread - 1) / min_per_thread;
-    unsigned long const hardware_threads = std::thread::hardware_concurrency();
-
-    // 最终线程数取 核心数 和 任务建议数 的最小值
-    unsigned long const num_threads =
-        std::min(hardware_threads != 0 ? hardware_threads : 2, max_threads);
-
-    unsigned long const block_size = length / num_threads;  // 每块的大小
-
-    std::vector<T> results(num_threads);
-    std::vector<std::thread> threads(
-        num_threads - 1);  // 除去主线程，需要生成的子线程数
-
-    // 3. 分配任务并启动线程
-    Iterator block_start = first;
-    for (unsigned long i = 0; i < (num_threads - 1); ++i) {
-        Iterator block_end = block_start;
-        std::advance(block_end, block_size);
-        threads[i] = std::thread(accumulate_block<Iterator, T>(), block_start,
-            block_end, std::ref(results[i])  // 使用 std::ref 存回结果
-        );
-        block_start = block_end;
+    // 3.每个线程的数据
+    int num_per_thread = length / ture_num;
+    std::vector<T> results(ture_num, 0);
+    std::vector<std::thread> threads;
+    // 4.开启线程计算
+    Iterator start = begin;
+    for (int i = 0; i < ture_num - 1; i++) {
+        Iterator last = start;
+        std::advance(last, num_per_thread);
+        threads.emplace_back(
+            accumulate_block<Iterator, T>, start, last, std::ref(results[i]));
+        start = last;
     }
 
-    // 4. 主线程干最后一手活
-    accumulate_block<Iterator, T>()(
-        block_start, last, results[num_threads - 1]);
+    // 5.主线程计算
+    accumulate_block<Iterator, T>(start, end, results[ture_num - 1]);
+    // 6.等待线程算完
+    for (auto& t : threads) {
+        t.join();
+    }
 
-    // 5. 等待所有线程完成
-    for (auto& entry : threads) entry.join();
-
-    // 6. 最后将所有中间结果再次累加
-    return std::accumulate(results.begin(), results.end(), init);
+    // 7.汇总结束
+    int sum = 0;
+    for (auto& t : results) {
+        sum += t;
+    }
+    return sum;
 }
 
 int main() {

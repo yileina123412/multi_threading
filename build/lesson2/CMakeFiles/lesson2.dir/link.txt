@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/lesson2.dir/main.cpp.o -o lesson2   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib 
