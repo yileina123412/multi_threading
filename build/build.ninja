@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/furina/learning_coding/cpp_project/multithreading/study/build/
+cmake_ninja_workdir = /home/furina/learning_coding/cpp_project/multi_threading/build/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/furina/learning_coding/cpp_project/multithreading/study/build && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +56,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/furina/learning_coding/cpp_project/multithreading/study/build && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/furina/learning_coding/cpp_project/multithreading/study -B/home/furina/learning_coding/cpp_project/multithreading/study/build
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/furina/learning_coding/cpp_project/multi_threading -B/home/furina/learning_coding/cpp_project/multi_threading/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -65,7 +65,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/furina/learning_coding/cpp_project/multithreading/study/CMakeLists.txt
+# /home/furina/learning_coding/cpp_project/multi_threading/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -77,11 +77,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_lesson1: phony || .
 
-build lesson1/CMakeFiles/lesson1.dir/main.cpp.o: CXX_COMPILER__lesson1_unscanned_Debug /home/furina/learning_coding/cpp_project/multithreading/study/lesson1/main.cpp || cmake_object_order_depends_target_lesson1
+build lesson1/CMakeFiles/lesson1.dir/main.cpp.o: CXX_COMPILER__lesson1_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson1/main.cpp || cmake_object_order_depends_target_lesson1
   CONFIG = Debug
   DEP_FILE = lesson1/CMakeFiles/lesson1.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/furina/learning_coding/cpp_project/multithreading/study/include
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
   OBJECT_DIR = lesson1/CMakeFiles/lesson1.dir
   OBJECT_FILE_DIR = lesson1/CMakeFiles/lesson1.dir
 
@@ -109,7 +109,7 @@ build lesson1/lesson1: CXX_EXECUTABLE_LINKER__lesson1_Debug lesson1/CMakeFiles/l
 # Utility command for edit_cache
 
 build lesson1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/furina/learning_coding/cpp_project/multithreading/study/build/lesson1 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson1 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -120,7 +120,7 @@ build lesson1/edit_cache: phony lesson1/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build lesson1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/furina/learning_coding/cpp_project/multithreading/study/build/lesson1 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/furina/learning_coding/cpp_project/multithreading/study -B/home/furina/learning_coding/cpp_project/multithreading/study/build
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson1 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/furina/learning_coding/cpp_project/multi_threading -B/home/furina/learning_coding/cpp_project/multi_threading/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -129,7 +129,7 @@ build lesson1/rebuild_cache: phony lesson1/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/furina/learning_coding/cpp_project/multithreading/study/CMakeLists.txt
+# /home/furina/learning_coding/cpp_project/multi_threading/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -141,11 +141,11 @@ build lesson1/rebuild_cache: phony lesson1/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_lesson2: phony || .
 
-build lesson2/CMakeFiles/lesson2.dir/main.cpp.o: CXX_COMPILER__lesson2_unscanned_Debug /home/furina/learning_coding/cpp_project/multithreading/study/lesson2/main.cpp || cmake_object_order_depends_target_lesson2
+build lesson2/CMakeFiles/lesson2.dir/main.cpp.o: CXX_COMPILER__lesson2_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson2/main.cpp || cmake_object_order_depends_target_lesson2
   CONFIG = Debug
   DEP_FILE = lesson2/CMakeFiles/lesson2.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/furina/learning_coding/cpp_project/multithreading/study/include
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
   OBJECT_DIR = lesson2/CMakeFiles/lesson2.dir
   OBJECT_FILE_DIR = lesson2/CMakeFiles/lesson2.dir
 
@@ -177,11 +177,11 @@ build lesson2/lesson2: CXX_EXECUTABLE_LINKER__lesson2_Debug lesson2/CMakeFiles/l
 
 build cmake_object_order_depends_target_lesson2_3: phony || .
 
-build lesson2/CMakeFiles/lesson2_3.dir/main2_3.cpp.o: CXX_COMPILER__lesson2_3_unscanned_Debug /home/furina/learning_coding/cpp_project/multithreading/study/lesson2/main2_3.cpp || cmake_object_order_depends_target_lesson2_3
+build lesson2/CMakeFiles/lesson2_3.dir/main2_3.cpp.o: CXX_COMPILER__lesson2_3_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson2/main2_3.cpp || cmake_object_order_depends_target_lesson2_3
   CONFIG = Debug
   DEP_FILE = lesson2/CMakeFiles/lesson2_3.dir/main2_3.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/furina/learning_coding/cpp_project/multithreading/study/include
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
   OBJECT_DIR = lesson2/CMakeFiles/lesson2_3.dir
   OBJECT_FILE_DIR = lesson2/CMakeFiles/lesson2_3.dir
 
@@ -213,11 +213,11 @@ build lesson2/lesson2_3: CXX_EXECUTABLE_LINKER__lesson2_3_Debug lesson2/CMakeFil
 
 build cmake_object_order_depends_target_lesson2_4: phony || .
 
-build lesson2/CMakeFiles/lesson2_4.dir/main2_4.cpp.o: CXX_COMPILER__lesson2_4_unscanned_Debug /home/furina/learning_coding/cpp_project/multithreading/study/lesson2/main2_4.cpp || cmake_object_order_depends_target_lesson2_4
+build lesson2/CMakeFiles/lesson2_4.dir/main2_4.cpp.o: CXX_COMPILER__lesson2_4_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson2/main2_4.cpp || cmake_object_order_depends_target_lesson2_4
   CONFIG = Debug
   DEP_FILE = lesson2/CMakeFiles/lesson2_4.dir/main2_4.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/furina/learning_coding/cpp_project/multithreading/study/include
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
   OBJECT_DIR = lesson2/CMakeFiles/lesson2_4.dir
   OBJECT_FILE_DIR = lesson2/CMakeFiles/lesson2_4.dir
 
@@ -245,7 +245,7 @@ build lesson2/lesson2_4: CXX_EXECUTABLE_LINKER__lesson2_4_Debug lesson2/CMakeFil
 # Utility command for edit_cache
 
 build lesson2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson2 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -256,12 +256,456 @@ build lesson2/edit_cache: phony lesson2/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build lesson2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/furina/learning_coding/cpp_project/multithreading/study -B/home/furina/learning_coding/cpp_project/multithreading/study/build
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson2 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/furina/learning_coding/cpp_project/multi_threading -B/home/furina/learning_coding/cpp_project/multi_threading/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build lesson2/rebuild_cache: phony lesson2/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/furina/learning_coding/cpp_project/multi_threading/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lesson3_1
+
+
+#############################################
+# Order-only phony target for lesson3_1
+
+build cmake_object_order_depends_target_lesson3_1: phony || .
+
+build lesson3/CMakeFiles/lesson3_1.dir/main3_1.cpp.o: CXX_COMPILER__lesson3_1_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson3/main3_1.cpp || cmake_object_order_depends_target_lesson3_1
+  CONFIG = Debug
+  DEP_FILE = lesson3/CMakeFiles/lesson3_1.dir/main3_1.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson3/CMakeFiles/lesson3_1.dir
+  OBJECT_FILE_DIR = lesson3/CMakeFiles/lesson3_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lesson3_1
+
+
+#############################################
+# Link the executable lesson3/lesson3_1
+
+build lesson3/lesson3_1: CXX_EXECUTABLE_LINKER__lesson3_1_Debug lesson3/CMakeFiles/lesson3_1.dir/main3_1.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson3/CMakeFiles/lesson3_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson3/lesson3_1
+  TARGET_PDB = lesson3_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lesson3_2
+
+
+#############################################
+# Order-only phony target for lesson3_2
+
+build cmake_object_order_depends_target_lesson3_2: phony || .
+
+build lesson3/CMakeFiles/lesson3_2.dir/main3_2.cpp.o: CXX_COMPILER__lesson3_2_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson3/main3_2.cpp || cmake_object_order_depends_target_lesson3_2
+  CONFIG = Debug
+  DEP_FILE = lesson3/CMakeFiles/lesson3_2.dir/main3_2.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson3/CMakeFiles/lesson3_2.dir
+  OBJECT_FILE_DIR = lesson3/CMakeFiles/lesson3_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lesson3_2
+
+
+#############################################
+# Link the executable lesson3/lesson3_2
+
+build lesson3/lesson3_2: CXX_EXECUTABLE_LINKER__lesson3_2_Debug lesson3/CMakeFiles/lesson3_2.dir/main3_2.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson3/CMakeFiles/lesson3_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson3/lesson3_2
+  TARGET_PDB = lesson3_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main3_3
+
+
+#############################################
+# Order-only phony target for main3_3
+
+build cmake_object_order_depends_target_main3_3: phony || .
+
+build lesson3/CMakeFiles/main3_3.dir/main3_3.cpp.o: CXX_COMPILER__main3_3_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson3/main3_3.cpp || cmake_object_order_depends_target_main3_3
+  CONFIG = Debug
+  DEP_FILE = lesson3/CMakeFiles/main3_3.dir/main3_3.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson3/CMakeFiles/main3_3.dir
+  OBJECT_FILE_DIR = lesson3/CMakeFiles/main3_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main3_3
+
+
+#############################################
+# Link the executable lesson3/main3_3
+
+build lesson3/main3_3: CXX_EXECUTABLE_LINKER__main3_3_Debug lesson3/CMakeFiles/main3_3.dir/main3_3.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson3/CMakeFiles/main3_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson3/main3_3
+  TARGET_PDB = main3_3.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build lesson3/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson3 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build lesson3/edit_cache: phony lesson3/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build lesson3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson3 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/furina/learning_coding/cpp_project/multi_threading -B/home/furina/learning_coding/cpp_project/multi_threading/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build lesson3/rebuild_cache: phony lesson3/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/furina/learning_coding/cpp_project/multi_threading/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lesson4_1
+
+
+#############################################
+# Order-only phony target for lesson4_1
+
+build cmake_object_order_depends_target_lesson4_1: phony || .
+
+build lesson4/CMakeFiles/lesson4_1.dir/main4_1.cpp.o: CXX_COMPILER__lesson4_1_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson4/main4_1.cpp || cmake_object_order_depends_target_lesson4_1
+  CONFIG = Debug
+  DEP_FILE = lesson4/CMakeFiles/lesson4_1.dir/main4_1.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson4/CMakeFiles/lesson4_1.dir
+  OBJECT_FILE_DIR = lesson4/CMakeFiles/lesson4_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lesson4_1
+
+
+#############################################
+# Link the executable lesson4/lesson4_1
+
+build lesson4/lesson4_1: CXX_EXECUTABLE_LINKER__lesson4_1_Debug lesson4/CMakeFiles/lesson4_1.dir/main4_1.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson4/CMakeFiles/lesson4_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson4/lesson4_1
+  TARGET_PDB = lesson4_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lesson4_2
+
+
+#############################################
+# Order-only phony target for lesson4_2
+
+build cmake_object_order_depends_target_lesson4_2: phony || .
+
+build lesson4/CMakeFiles/lesson4_2.dir/main4_2.cpp.o: CXX_COMPILER__lesson4_2_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson4/main4_2.cpp || cmake_object_order_depends_target_lesson4_2
+  CONFIG = Debug
+  DEP_FILE = lesson4/CMakeFiles/lesson4_2.dir/main4_2.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson4/CMakeFiles/lesson4_2.dir
+  OBJECT_FILE_DIR = lesson4/CMakeFiles/lesson4_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lesson4_2
+
+
+#############################################
+# Link the executable lesson4/lesson4_2
+
+build lesson4/lesson4_2: CXX_EXECUTABLE_LINKER__lesson4_2_Debug lesson4/CMakeFiles/lesson4_2.dir/main4_2.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson4/CMakeFiles/lesson4_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson4/lesson4_2
+  TARGET_PDB = lesson4_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lesson4_3
+
+
+#############################################
+# Order-only phony target for lesson4_3
+
+build cmake_object_order_depends_target_lesson4_3: phony || .
+
+build lesson4/CMakeFiles/lesson4_3.dir/main4_3.cpp.o: CXX_COMPILER__lesson4_3_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson4/main4_3.cpp || cmake_object_order_depends_target_lesson4_3
+  CONFIG = Debug
+  DEP_FILE = lesson4/CMakeFiles/lesson4_3.dir/main4_3.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson4/CMakeFiles/lesson4_3.dir
+  OBJECT_FILE_DIR = lesson4/CMakeFiles/lesson4_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lesson4_3
+
+
+#############################################
+# Link the executable lesson4/lesson4_3
+
+build lesson4/lesson4_3: CXX_EXECUTABLE_LINKER__lesson4_3_Debug lesson4/CMakeFiles/lesson4_3.dir/main4_3.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson4/CMakeFiles/lesson4_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson4/lesson4_3
+  TARGET_PDB = lesson4_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lesson4_4
+
+
+#############################################
+# Order-only phony target for lesson4_4
+
+build cmake_object_order_depends_target_lesson4_4: phony || .
+
+build lesson4/CMakeFiles/lesson4_4.dir/main4_4.cpp.o: CXX_COMPILER__lesson4_4_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson4/main4_4.cpp || cmake_object_order_depends_target_lesson4_4
+  CONFIG = Debug
+  DEP_FILE = lesson4/CMakeFiles/lesson4_4.dir/main4_4.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson4/CMakeFiles/lesson4_4.dir
+  OBJECT_FILE_DIR = lesson4/CMakeFiles/lesson4_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lesson4_4
+
+
+#############################################
+# Link the executable lesson4/lesson4_4
+
+build lesson4/lesson4_4: CXX_EXECUTABLE_LINKER__lesson4_4_Debug lesson4/CMakeFiles/lesson4_4.dir/main4_4.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson4/CMakeFiles/lesson4_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson4/lesson4_4
+  TARGET_PDB = lesson4_4.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build lesson4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson4 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build lesson4/edit_cache: phony lesson4/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build lesson4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson4 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/furina/learning_coding/cpp_project/multi_threading -B/home/furina/learning_coding/cpp_project/multi_threading/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build lesson4/rebuild_cache: phony lesson4/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/furina/learning_coding/cpp_project/multi_threading/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lesson5_1
+
+
+#############################################
+# Order-only phony target for lesson5_1
+
+build cmake_object_order_depends_target_lesson5_1: phony || .
+
+build lesson5/CMakeFiles/lesson5_1.dir/main5_1.cpp.o: CXX_COMPILER__lesson5_1_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson5/main5_1.cpp || cmake_object_order_depends_target_lesson5_1
+  CONFIG = Debug
+  DEP_FILE = lesson5/CMakeFiles/lesson5_1.dir/main5_1.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson5/CMakeFiles/lesson5_1.dir
+  OBJECT_FILE_DIR = lesson5/CMakeFiles/lesson5_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lesson5_1
+
+
+#############################################
+# Link the executable lesson5/lesson5_1
+
+build lesson5/lesson5_1: CXX_EXECUTABLE_LINKER__lesson5_1_Debug lesson5/CMakeFiles/lesson5_1.dir/main5_1.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson5/CMakeFiles/lesson5_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson5/lesson5_1
+  TARGET_PDB = lesson5_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main5_2
+
+
+#############################################
+# Order-only phony target for main5_2
+
+build cmake_object_order_depends_target_main5_2: phony || .
+
+build lesson5/CMakeFiles/main5_2.dir/main5_2.cpp.o: CXX_COMPILER__main5_2_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson5/main5_2.cpp || cmake_object_order_depends_target_main5_2
+  CONFIG = Debug
+  DEP_FILE = lesson5/CMakeFiles/main5_2.dir/main5_2.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson5/CMakeFiles/main5_2.dir
+  OBJECT_FILE_DIR = lesson5/CMakeFiles/main5_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main5_2
+
+
+#############################################
+# Link the executable lesson5/main5_2
+
+build lesson5/main5_2: CXX_EXECUTABLE_LINKER__main5_2_Debug lesson5/CMakeFiles/main5_2.dir/main5_2.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson5/CMakeFiles/main5_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson5/main5_2
+  TARGET_PDB = main5_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main5_3
+
+
+#############################################
+# Order-only phony target for main5_3
+
+build cmake_object_order_depends_target_main5_3: phony || .
+
+build lesson5/CMakeFiles/main5_3.dir/main5_3.cpp.o: CXX_COMPILER__main5_3_unscanned_Debug /home/furina/learning_coding/cpp_project/multi_threading/lesson5/main5_3.cpp || cmake_object_order_depends_target_main5_3
+  CONFIG = Debug
+  DEP_FILE = lesson5/CMakeFiles/main5_3.dir/main5_3.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/furina/learning_coding/cpp_project/multi_threading/include
+  OBJECT_DIR = lesson5/CMakeFiles/main5_3.dir
+  OBJECT_FILE_DIR = lesson5/CMakeFiles/main5_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main5_3
+
+
+#############################################
+# Link the executable lesson5/main5_3
+
+build lesson5/main5_3: CXX_EXECUTABLE_LINKER__main5_3_Debug lesson5/CMakeFiles/main5_3.dir/main5_3.cpp.o
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lpthread
+  LINK_PATH = -L/usr/local/lib
+  OBJECT_DIR = lesson5/CMakeFiles/main5_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lesson5/main5_3
+  TARGET_PDB = main5_3.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build lesson5/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson5 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build lesson5/edit_cache: phony lesson5/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build lesson5/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/furina/learning_coding/cpp_project/multi_threading/build/lesson5 && /home/furina/.local/lib/python3.8/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/furina/learning_coding/cpp_project/multi_threading -B/home/furina/learning_coding/cpp_project/multi_threading/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build lesson5/rebuild_cache: phony lesson5/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -274,29 +718,70 @@ build lesson2_3: phony lesson2/lesson2_3
 
 build lesson2_4: phony lesson2/lesson2_4
 
+build lesson3_1: phony lesson3/lesson3_1
+
+build lesson3_2: phony lesson3/lesson3_2
+
+build lesson4_1: phony lesson4/lesson4_1
+
+build lesson4_2: phony lesson4/lesson4_2
+
+build lesson4_3: phony lesson4/lesson4_3
+
+build lesson4_4: phony lesson4/lesson4_4
+
+build lesson5_1: phony lesson5/lesson5_1
+
+build main3_3: phony lesson3/main3_3
+
+build main5_2: phony lesson5/main5_2
+
+build main5_3: phony lesson5/main5_3
+
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: /home/furina/learning_coding/cpp_project/multithreading/study/build
+# Folder: /home/furina/learning_coding/cpp_project/multi_threading/build
 
-build all: phony lesson1/all lesson2/all
+build all: phony lesson1/all lesson2/all lesson3/all lesson4/all lesson5/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/furina/learning_coding/cpp_project/multithreading/study/build/lesson1
+# Folder: /home/furina/learning_coding/cpp_project/multi_threading/build/lesson1
 
 build lesson1/all: phony lesson1/lesson1
 
 # =============================================================================
 
 #############################################
-# Folder: /home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2
+# Folder: /home/furina/learning_coding/cpp_project/multi_threading/build/lesson2
 
 build lesson2/all: phony lesson2/lesson2 lesson2/lesson2_3 lesson2/lesson2_4
+
+# =============================================================================
+
+#############################################
+# Folder: /home/furina/learning_coding/cpp_project/multi_threading/build/lesson3
+
+build lesson3/all: phony lesson3/lesson3_1 lesson3/lesson3_2 lesson3/main3_3
+
+# =============================================================================
+
+#############################################
+# Folder: /home/furina/learning_coding/cpp_project/multi_threading/build/lesson4
+
+build lesson4/all: phony lesson4/lesson4_1 lesson4/lesson4_2 lesson4/lesson4_3 lesson4/lesson4_4
+
+# =============================================================================
+
+#############################################
+# Folder: /home/furina/learning_coding/cpp_project/multi_threading/build/lesson5
+
+build lesson5/all: phony lesson5/lesson5_1 lesson5/main5_2 lesson5/main5_3
 
 # =============================================================================
 # Built-in targets
@@ -305,14 +790,14 @@ build lesson2/all: phony lesson2/lesson2 lesson2/lesson2_3 lesson2/lesson2_4
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /home/furina/learning_coding/cpp_project/multithreading/study/build/cmake_install.cmake /home/furina/learning_coding/cpp_project/multithreading/study/build/lesson1/cmake_install.cmake /home/furina/learning_coding/cpp_project/multithreading/study/build/lesson2/cmake_install.cmake: RERUN_CMAKE | /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckIncludeFile.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckLibraryExists.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageMessage.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindThreads.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/UnixPaths.cmake /home/furina/learning_coding/cpp_project/multithreading/study/CMakeLists.txt /home/furina/learning_coding/cpp_project/multithreading/study/lesson1/CMakeLists.txt /home/furina/learning_coding/cpp_project/multithreading/study/lesson2/CMakeLists.txt CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake
+build build.ninja /home/furina/learning_coding/cpp_project/multi_threading/build/cmake_install.cmake /home/furina/learning_coding/cpp_project/multi_threading/build/lesson1/cmake_install.cmake /home/furina/learning_coding/cpp_project/multi_threading/build/lesson2/cmake_install.cmake /home/furina/learning_coding/cpp_project/multi_threading/build/lesson3/cmake_install.cmake /home/furina/learning_coding/cpp_project/multi_threading/build/lesson4/cmake_install.cmake /home/furina/learning_coding/cpp_project/multi_threading/build/lesson5/cmake_install.cmake: RERUN_CMAKE | /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckIncludeFile.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckLibraryExists.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageMessage.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindThreads.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/UnixPaths.cmake /home/furina/learning_coding/cpp_project/multi_threading/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson1/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson2/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson3/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson4/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson5/CMakeLists.txt CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckIncludeFile.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckLibraryExists.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageMessage.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindThreads.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/UnixPaths.cmake /home/furina/learning_coding/cpp_project/multithreading/study/CMakeLists.txt /home/furina/learning_coding/cpp_project/multithreading/study/lesson1/CMakeLists.txt /home/furina/learning_coding/cpp_project/multithreading/study/lesson2/CMakeLists.txt CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake: phony
+build /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckIncludeFile.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CheckLibraryExists.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageMessage.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/FindThreads.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Linker/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU-C.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU-CXX.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/Linux.cmake /home/furina/.local/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/Platform/UnixPaths.cmake /home/furina/learning_coding/cpp_project/multi_threading/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson1/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson2/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson3/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson4/CMakeLists.txt /home/furina/learning_coding/cpp_project/multi_threading/lesson5/CMakeLists.txt CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake: phony
 
 
 #############################################

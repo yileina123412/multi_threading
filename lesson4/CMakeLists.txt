@@ -10,5 +10,14 @@ add_executable(lesson4_4 main4_4.cpp)
 target_include_directories(lesson4_1 PRIVATE "${PROJECT_SOURCE_DIR}/include")
 target_link_libraries(lesson4_1 PRIVATE project_common)
 
+target_include_directories(lesson4_2 PRIVATE "${PROJECT_SOURCE_DIR}/include")
+target_link_libraries(lesson4_2 PRIVATE project_common)
+
+target_include_directories(lesson4_3 PRIVATE "${PROJECT_SOURCE_DIR}/include")
+target_link_libraries(lesson4_3 PRIVATE project_common)
+
+target_include_directories(lesson4_4 PRIVATE "${PROJECT_SOURCE_DIR}/include")
+target_link_libraries(lesson4_4 PRIVATE project_common)
+
 
 

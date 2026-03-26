@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/furina/learning_coding/cpp_project/multi_threading/build/cmake_install.cmake",
+		"/home/furina/learning_coding/cpp_project/multi_threading/build/lesson1/cmake_install.cmake",
+		"/home/furina/learning_coding/cpp_project/multi_threading/build/lesson2/cmake_install.cmake",
+		"/home/furina/learning_coding/cpp_project/multi_threading/build/lesson3/cmake_install.cmake",
+		"/home/furina/learning_coding/cpp_project/multi_threading/build/lesson4/cmake_install.cmake",
+		"/home/furina/learning_coding/cpp_project/multi_threading/build/lesson5/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,257 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lesson1",
+					"jsonFile" : "directory-lesson1-Debug-f2dca2ce9d580ecc0fa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lesson1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lesson2",
+					"jsonFile" : "directory-lesson2-Debug-aca724276750d718fad8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lesson2",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "lesson3",
+					"jsonFile" : "directory-lesson3-Debug-bf602d740203d78bcaad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lesson3",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						11
+					]
+				},
+				{
+					"build" : "lesson4",
+					"jsonFile" : "directory-lesson4-Debug-982371383b988edf2f6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lesson4",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "lesson5",
+					"jsonFile" : "directory-lesson5-Debug-eaddc7b13c750a88c420.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lesson5",
+					"targetIndexes" : 
+					[
+						10,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "Mymutithread",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "lesson1::@f8996bc1f023edaddeda",
+					"jsonFile" : "target-lesson1-Debug-c7c6a29d76369d772a3e.json",
+					"name" : "lesson1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lesson2::@9ffd7a12d1d983e40643",
+					"jsonFile" : "target-lesson2-Debug-3e0dcf2cba98dd8c37be.json",
+					"name" : "lesson2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lesson2_3::@9ffd7a12d1d983e40643",
+					"jsonFile" : "target-lesson2_3-Debug-9b5d2be27017e88a32e9.json",
+					"name" : "lesson2_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lesson2_4::@9ffd7a12d1d983e40643",
+					"jsonFile" : "target-lesson2_4-Debug-7f1bfde71634304a7ea1.json",
+					"name" : "lesson2_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lesson3_1::@cff786509594f72a6d70",
+					"jsonFile" : "target-lesson3_1-Debug-23e587bc16668028ca34.json",
+					"name" : "lesson3_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lesson3_2::@cff786509594f72a6d70",
+					"jsonFile" : "target-lesson3_2-Debug-dce7cc972059c1c0be2a.json",
+					"name" : "lesson3_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lesson4_1::@bb5efae454e3ea9a598c",
+					"jsonFile" : "target-lesson4_1-Debug-2f2e711913a6a3aab6df.json",
+					"name" : "lesson4_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lesson4_2::@bb5efae454e3ea9a598c",
+					"jsonFile" : "target-lesson4_2-Debug-85c4568fb02fa9ff58d3.json",
+					"name" : "lesson4_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lesson4_3::@bb5efae454e3ea9a598c",
+					"jsonFile" : "target-lesson4_3-Debug-fb39061995aa34e77505.json",
+					"name" : "lesson4_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lesson4_4::@bb5efae454e3ea9a598c",
+					"jsonFile" : "target-lesson4_4-Debug-2e9277e9ae6e915ca9f7.json",
+					"name" : "lesson4_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "lesson5_1::@a5d7fea97240bdb013b0",
+					"jsonFile" : "target-lesson5_1-Debug-30677687ca9fde333d10.json",
+					"name" : "lesson5_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "main3_3::@cff786509594f72a6d70",
+					"jsonFile" : "target-main3_3-Debug-8dea589335492aa72636.json",
+					"name" : "main3_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "main5_2::@a5d7fea97240bdb013b0",
+					"jsonFile" : "target-main5_2-Debug-a50707ed48ea03b96ec8.json",
+					"name" : "main5_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "main5_3::@a5d7fea97240bdb013b0",
+					"jsonFile" : "target-main5_3-Debug-ffcea35f266a9bc6dbed.json",
+					"name" : "main5_3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/furina/learning_coding/cpp_project/multi_threading/build",
+		"source" : "/home/furina/learning_coding/cpp_project/multi_threading"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
